@@ -1,0 +1,107 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2024-02-23T20:48:07.720-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "DygmaLabs.Bazecor"
+				},
+				{
+					"PackageIdentifier" : "Discord.Discord"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "Exercism.CLI"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "GnuPG.GnuPG"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WinDbg"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OneDrive"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.Toolbox"
+				},
+				{
+					"PackageIdentifier" : "Zoom.Zoom"
+				},
+				{
+					"PackageIdentifier" : "qishibo.AnotherRedisDesktopManager"
+				},
+				{
+					"PackageIdentifier" : "dandavison.delta"
+				},
+				{
+					"PackageIdentifier" : "jqlang.jq"
+				},
+				{
+					"PackageIdentifier" : "SlackTechnologies.Slack"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.UninstallTool"
+				},
+				{
+					"PackageIdentifier" : "Appest.TickTick"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "LINQPad.LINQPad.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.6.3482"
+}
