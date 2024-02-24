@@ -1,0 +1,55 @@
+[alias]
+	lg = log --pretty=format:'%C(brightred)%h%C(reset) %<(50,trunc)%s %C(brightyellow)%<|(75)%cr%C(reset brightblue) <%an%<|(95)%x3E %C(auto)%d%C(reset)'
+	lgb = lg dev..HEAD
+	amend = commit --amend -m
+	createworktree = "!f() { git worktree add -b $1 $1 ${2-dev}; }; f"
+	removeworktree = "!f() { git worktree remove $1; git branch -D $1; }; f"
+	pushnew = push -u origin HEAD
+
+[core]
+	pager = delta
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
+	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+	autocrlf = true
+	whitespace = cr-at-eol
+
+[commit]
+	template = ~/.gitmessage
+	gpgsign = true
+
+[delta]
+	navigate = true
+	light = false
+
+[interactive]
+	diffFilter = delta --color-only
+
+[pull]
+	rebase = true
+
+[push]
+	followTags = true
+
+[rebase]
+	autosquash = true
+
+[tag]
+	gpgsign = true
+
+# Diff
+[diff]
+	tool = rider
+[difftool]
+	prompt = false
+[diftool "rider"]
+	cmd = \"C:\\Users\\Andy\\AppData\\Local\\Programs\\Rider\\bin\\rider64.exe\" diff $LOCAL $REMOTE
+
+# Merge
+[merge]
+	tool = rider
+[mergetool]
+	prompt = false
+	keepBackup = false
+[mergetool "rider"]
+	cmd = \"C:\\Users\\Andy\\AppData\\Local\\Programs\\Rider\\bin\\rider64.exe\" merge $LOCAL $REMOTE $BASE $MERGED
+	trustExitCode = true
